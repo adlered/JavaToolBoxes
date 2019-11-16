@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="JavaToolBoxes:jar">
+    <output-path>$PROJECT_DIR$/release</output-path>
+    <root id="archive" name="JavaToolBoxes.jar">
+      <element id="module-output" name="JavaToolBoxes" />
+    </root>
+  </artifact>
+</component>
