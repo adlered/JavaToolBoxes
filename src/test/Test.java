@@ -1,6 +1,7 @@
 package test;
 
 import pers.adlered.java_tool_boxes.console_args.main.ConsoleArgs;
+import pers.adlered.java_tool_boxes.console_table.main.ConsoleTable;
 import pers.adlered.java_tool_boxes.inputstream_tostring.main.InputStreamToString;
 import pers.adlered.java_tool_boxes.post_http_or_https.main.PostHttpOrHttps;
 
@@ -29,5 +30,14 @@ public class Test {
                 System.out.println(value);
             }
         }
+
+        ConsoleTable consoleTable = new ConsoleTable(2, true);
+        consoleTable.appendRow();
+        consoleTable.appendColum("Title 1");
+        consoleTable.appendColum("Title 2");
+        consoleTable.appendRow();
+        consoleTable.appendColum("Text 1");
+        consoleTable.appendColum("Text 2");
+        System.out.println(consoleTable.toString());
     }
 }
