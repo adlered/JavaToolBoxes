@@ -2,11 +2,7 @@ package test;
 
 import pers.adlered.java_tool_boxes.console_args.main.ConsoleArgs;
 import pers.adlered.java_tool_boxes.console_table.main.ConsoleTable;
-import pers.adlered.java_tool_boxes.inputstream_tostring.main.InputStreamToString;
-import pers.adlered.java_tool_boxes.post_http_or_https.main.PostHttpOrHttps;
-
-import java.io.BufferedInputStream;
-import java.util.HashMap;
+import pers.adlered.java_tool_boxes.double_keys.main.DoubleKeys;
 import java.util.List;
 import java.util.Map;
 
@@ -39,5 +35,8 @@ public class Test {
         consoleTable.appendColum("Text 1");
         consoleTable.appendColum("Text 2");
         System.out.println(consoleTable.toString());
+        System.out.println(DoubleKeys.check("hello", "1"));
+        System.out.println(DoubleKeys.check("hello", "2"));
+        System.out.println(DoubleKeys.check("hello", "1"));
     }
 }

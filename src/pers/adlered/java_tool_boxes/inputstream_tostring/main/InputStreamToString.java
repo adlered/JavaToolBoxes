@@ -22,7 +22,7 @@ public class InputStreamToString {
             byte[] bytes = new byte[1024];
             int len = -1;
             while ((len = inputStream.read(bytes)) != -1) {
-                sb.append(new String(bytes, 0 , len));
+                sb.append(new String(bytes, 0, len));
             }
         } catch (Exception e) {
             e.printStackTrace();
@@ -36,7 +36,7 @@ public class InputStreamToString {
             byte[] bytes = new byte[1024];
             int len = -1;
             while ((len = bufferedInputStream.read(bytes)) != -1) {
-                sb.append(new String(bytes, 0 , len));
+                sb.append(new String(bytes, 0, len));
             }
         } catch (Exception e) {
             e.printStackTrace();

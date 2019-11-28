@@ -13,3 +13,4 @@ Clone本项目，在release文件夹中提取出`JavaToolBoxes.jar`，在你的�
 - [x] [将InputStream转换为字符串并返回，支持BufferedInputStream与InputStream](/readme/InputStreamToString.md)
 - [x] [将用户在控制台传入的参数分解为键&值](/readme/ConsoleArgs.md)
 - [x] [在控制台中打印表单](/readme/ConsoleTable.md)
+- [x] [检测某个用户名是否已经发过相同的一句话（验证Key1中的key2在key1中是否已经存在）](/readme/DoubleKeys.md)

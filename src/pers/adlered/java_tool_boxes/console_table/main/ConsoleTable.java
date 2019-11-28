@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * <h3>JavaToolBoxes</h3>
+ * <h3>ConsoleTable</h3>
  * <p>在控制台中打印表单</p>
  *
  * <h3>用法：</h3>
